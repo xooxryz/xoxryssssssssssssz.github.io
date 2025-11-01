@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Flutter Weather Lite",
+    "description": "Minimal weather app with clean UI, state management, and offline caching.",
+    "tags": [
+      "Flutter",
+      "REST",
+      "Provider"
+    ],
+    "demo": "#",
+    "repo": "https://github.com/your-username/flutter-weather-lite",
+    "image": "assets/img/sample-weather.jpg"
+  },
+  {
+    "title": "BrandBoost Reels Playbook",
+    "description": "Tactical content plan for Instagram growth with hook library & content calendar.",
+    "tags": [
+      "Social Media",
+      "Content Strategy",
+      "SEO"
+    ],
+    "demo": "#",
+    "repo": "#",
+    "image": "assets/img/sample-reels.jpg"
+  },
+  {
+    "title": "CMS (Django) Concept",
+    "description": "Complaint Management System concept built in Django & REST API (internship @ IOCL).",
+    "tags": [
+      "Django",
+      "API",
+      "UX"
+    ],
+    "demo": "#",
+    "repo": "https://github.com/your-username/cms-django",
+    "image": "assets/img/sample-cms.jpg"
+  }
+]

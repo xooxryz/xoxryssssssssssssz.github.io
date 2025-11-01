@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en" data-theme="system">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rohan | Flutter Developer • Social Media Expert • Content Writer</title>
+  <meta name="description" content="Rohan — Flutter Developer, Social Media Expert, and Content Writer. I craft impactful digital experiences that blend performance, usability, and storytelling.">
+  <meta property="og:title" content="Rohan — Flutter Developer • Social Media Expert • Content Writer">
+  <meta property="og:description" content="I craft impactful digital experiences that blend performance, usability, and storytelling.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/og-preview.png">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#">
+        <img src="assets/img/logo.svg" alt="Rohan logo">
+        <span>Rohan</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#content">Content</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="actions">
+        <button id="themeToggle" class="btn ghost" aria-label="Toggle dark and light theme">🌓</button>
+        <a class="btn primary" href="resume/rohan-resume.pdf" download>Download Résumé</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="intro">
+          <h1><span class="hi">Hi, I'm</span> Rohan</h1>
+          <p class="subtitle">Flutter Developer • Social Media Expert • Content Writer</p>
+          <p class="tagline">I build performant, user-friendly mobile apps with <strong>Flutter</strong>, craft social strategies that grow <strong>brand presence</strong>, and write content that tells <strong>memorable stories</strong>.</p>
+          <div class="cta">
+            <a class="btn primary" href="mailto:arifulhaquerohan@gmail.com">Email me</a>
+            <a class="btn" href="https://www.instagram.com/xoxryz/" target="_blank" rel="noopener">Instagram</a>
+            <a class="btn ghost" href="#projects">See projects ↓</a>
+          </div>
+          <ul class="meta">
+            <li>📍 Dhaka, Bangladesh</li>
+            <li>📱 Open to freelance & internships</li>
+            <li>🕑 Local time: <span id="localTime">—</span></li>
+          </ul>
+        </div>
+        <div class="card avatar">
+          <img class="avatar-img" src="assets/img/rohan-avatar.svg" alt="Illustration of Rohan">
+          <div class="badge">Available</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div>
+          <h2>About Me</h2>
+          <p>I'm Rohan, a passionate Flutter Developer, Social Media Expert, and Content Writer, driven by a desire to create impactful digital experiences. I specialize in developing efficient, user-friendly mobile applications with Flutter, and I'm adept at leveraging social media strategies to enhance brand presence and engagement. My approach blends technical expertise with creative storytelling, bringing both functionality and personality to every project.</p>
+          <p>I’m always eager to explore new technologies, trends, and ideas that bridge innovation and communication in the digital world.</p>
+          <div class="quick-cards">
+            <div class="mini-card">
+              <span class="mini-title">Years of coding</span>
+              <span class="mini-value" id="yearsCoding">3+</span>
+            </div>
+            <div class="mini-card">
+              <span class="mini-title">Primary stack</span>
+              <span class="mini-value">Flutter • Dart • Firebase</span>
+            </div>
+            <div class="mini-card">
+              <span class="mini-title">Also into</span>
+              <span class="mini-value">Brand strategy • Copywriting</span>
+            </div>
+          </div>
+        </div>
+        <aside class="card insta-card">
+          <h3>Instagram</h3>
+          <p>Scan to connect or tap to open.</p>
+          <a class="qr-wrap" href="https://www.instagram.com/xoxryz/" target="_blank" rel="noopener">
+            <img src="assets/img/instagram-qr-placeholder.svg" alt="Instagram QR placeholder: @xoxryz">
+          </a>
+          <p class="muted">Replace <code>assets/img/instagram-qr-placeholder.svg</code> with your real QR later.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="chip-list">
+          <li class="chip">Flutter</li>
+          <li class="chip">Dart</li>
+          <li class="chip">Firebase</li>
+          <li class="chip">REST API</li>
+          <li class="chip">State Mgmt (Provider/Bloc)</li>
+          <li class="chip">UI/UX</li>
+          <li class="chip">Social Strategy</li>
+          <li class="chip">Content Writing</li>
+          <li class="chip">SEO Basics</li>
+          <li class="chip">Git & GitHub</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Featured Projects</h2>
+        <div id="projectGrid" class="grid cards"></div>
+        <p class="muted">Edit <code>projects.json</code> to add/update your projects (title, tags, links, images).</p>
+      </div>
+    </section>
+
+    <section id="content" class="section">
+      <div class="container two-col">
+        <div>
+          <h2>Content & Writing</h2>
+          <p>I write guides, captions, and long-form posts that blend clarity with brand voice. From launch announcements to daily reels strategy — my content is built to perform.</p>
+          <ul class="list">
+            <li>Platform-native voice with strong hooks</li>
+            <li>Analytic mindset: iterate using insights</li>
+            <li>Clear CTAs aligned with goals</li>
+          </ul>
+        </div>
+        <aside class="card">
+          <h3>Sample Topics</h3>
+          <ul class="list tight">
+            <li>Flutter performance tips for indie devs</li>
+            <li>Instagram growth playbook for students</li>
+            <li>Storytelling frameworks for startups</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container two-col">
+        <div>
+          <h2>Contact</h2>
+          <p>Let’s build something people love. Reach out for collaborations, freelance projects, or just to say hi.</p>
+          <ul class="contact">
+            <li>📧 <a href="mailto:arifulhaquerohan@gmail.com">arifulhaquerohan@gmail.com</a></li>
+            <li>📸 <a href="https://www.instagram.com/xoxryz/" target="_blank" rel="noopener">@xoxryz</a></li>
+            <li>🐙 <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> (replace with your username)</li>
+          </ul>
+        </div>
+        <form class="card form" action="https://formspree.io/f/your-id" method="POST">
+          <label>
+            <span>Name</span>
+            <input name="name" type="text" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input name="email" type="email" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send Message</button>
+          <p class="muted small">Form powered by <a href="https://formspree.io" target="_blank" rel="noopener">Formspree</a>. Replace the action URL with your endpoint.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="brand-row">
+        <img src="assets/img/logo.svg" alt="" aria-hidden="true">
+        <strong>Rohan</strong>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#content">Content</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <p class="muted small">© <span id="year"></span> Rohan. Built with care and coffee.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
